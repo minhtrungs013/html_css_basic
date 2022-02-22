@@ -1,0 +1,34 @@
+.containerbody{
+    width: 100%;
+    height: 500px;
+}
+.product{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+.product__menu{
+   list-style: none;
+   border-radius: 3px;
+   padding-left: 0;
+}
+
+.product__item{
+    box-shadow: 0 1px  1px 0 rgba(180, 178, 178, 0.5);
+   display: block;
+   height: 45px;
+   align-items: center;
+}
+
+.product__item-link{
+      text-decoration: none;
+      display: block;
+       font-size:12px;
+       align-items: center;
+       color: rgb(129, 127, 127);
+        padding-top: 20px;
+        padding-left: 20px;
+}
+.product__item:hover{
+    background-color: rgb(219, 217, 217);
+}
