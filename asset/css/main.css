@@ -313,7 +313,8 @@ html {
   border-radius: 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: transform linear 0.1s;
-  will-change: transform; }
+  will-change: transform;
+  margin-bottom: 10px; }
 
 .product-new:hover {
   transform: translateY(-5px);
