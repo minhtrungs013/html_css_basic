@@ -186,6 +186,7 @@
     display: block;
 }
 
+
 .navbar__item-des:hover{
     background-color: #e2e1e1;
 }
@@ -221,4 +222,31 @@
     background-color:transparent;
     bottom: -25px;
     z-index: 1;
+}
+.navbar__item-desi{
+    position: relative;
+}
+.navbar__item-desi:hover .navbar__list-desi{
+    display: block;
+}
+
+.navbar__list-desi{
+    position: absolute;
+    width: 250px;
+    list-style: none;
+    left:197px;
+    top: -1px;
+    display: none;
+    padding: 0;
+    border-radius: 3px;
+    animation: growthe linear 0.4s;
+    box-shadow: 0 1px 0 0 rgb(209, 209, 209);
+    background-color: rgb(240, 240, 240);
+    z-index: 1;
+
+}
+
+.navbar__item-icon--des{
+    position: absolute;
+    right: 10px;
 }

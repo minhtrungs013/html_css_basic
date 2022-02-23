@@ -191,6 +191,30 @@
   bottom: -25px;
   z-index: 1; }
 
+.navbar__item-desi {
+  position: relative; }
+
+.navbar__item-desi:hover .navbar__list-desi {
+  display: block; }
+
+.navbar__list-desi {
+  position: absolute;
+  width: 250px;
+  list-style: none;
+  left: 197px;
+  top: -1px;
+  display: none;
+  padding: 0;
+  border-radius: 3px;
+  animation: growthe linear 0.4s;
+  box-shadow: 0 1px 0 0 #d1d1d1;
+  background-color: #f0f0f0;
+  z-index: 1; }
+
+.navbar__item-icon--des {
+  position: absolute;
+  right: 10px; }
+
 :root {
   --primary-color: #ee4d2d;
   --white-color: #ffffff;
@@ -248,13 +272,14 @@ html {
   margin-top: 11px;
   height: 200px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  border-radius: 6px; }
 
 .slider-bot__img {
   display: block;
   width: 100%;
   padding: 10px;
-  opacity: 0.8; }
+  border-radius: 6px; }
 
 .slider__text-des {
   position: absolute;
@@ -269,7 +294,8 @@ html {
   color: white; }
 
 .slider__bot-text:hover {
-  color: red; }
+  color: red;
+  opacity: 0.8; }
 
 .product__heading h2 {
   font-size: 20px;
@@ -277,13 +303,11 @@ html {
   padding-left: 10px; }
 
 .containerbody {
-  width: 100%;
-  height: 500px; }
+  width: 100%; }
 
 .product {
   margin-top: 20px;
-  width: 100%;
-  height: 500px; }
+  width: 100%; }
 
 .product__menu {
   list-style: none;
@@ -362,3 +386,46 @@ html {
   border: none;
   color: white;
   margin-bottom: 10px; }
+
+.footer {
+  margin: 20px 0; }
+
+.footer__heading {
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #777575;
+  padding: 20px; }
+
+.footer__item-menu {
+  background: #3d3b3b;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+
+.footer__item-menu a {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px; }
+
+.footer__list {
+  list-style: none;
+  padding: 0; }
+
+.footer__item {
+  height: 45px;
+  box-shadow: 0 1px 1px 0 rgba(180, 178, 178, 0.5); }
+
+.footer__link {
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+  padding: 10px;
+  color: #888686;
+  font-weight: 400;
+  line-height: 16px;
+  padding-left: 20px; }
+
+.footer__item:hover {
+  background-color: #d4d1d1; }
