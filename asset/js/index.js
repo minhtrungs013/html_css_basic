@@ -1,3 +1,4 @@
+// call back
 function myfunctions(valuse) {
     valuse('trung');
 };
